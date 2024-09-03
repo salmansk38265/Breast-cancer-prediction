@@ -56,10 +56,10 @@ pd.options.display.max_columns = 100
 # 1. Data Collection.
 """
 
-#from google.colab import files # type: ignore
-#uploaded = files.upload()
+from google.colab import files # type: ignore
+uploaded = files.upload()
 
-data = pd.read_csv(r"C:\\Users\\salma\\OneDrive\\Desktop\\BATCH--8\\BreastCancer.csv")
+data = pd.read_csv(BreastCancer.csv")
 
 """After collecting data, we need to know what are the shape of this dataset, Here we have attribute(`property`) called `data.shape`
 
